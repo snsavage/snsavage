@@ -4,13 +4,36 @@
 
     <style>
 
-      body {
-        background: url('images/big-ridge.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+      @media (max-width: 959px) { 
+        body {
+          background: url('images/bg_sm.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
       }
+
+      @media (min-width: 960px) and (max-width: 1279px) { 
+        body {
+          background: url('images/bg_lg.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      }
+
+      @media (min-width: 1280px) { 
+        body {
+          background: url('images/bg_lx.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      }
+
 
       h1 {
         color: white;
